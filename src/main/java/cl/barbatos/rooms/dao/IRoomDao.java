@@ -1,8 +1,8 @@
-package com.aleal.rooms.dao;
+package cl.barbatos.rooms.dao;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.aleal.rooms.model.Room;
+import cl.barbatos.rooms.model.Room;
 
 public interface IRoomDao extends CrudRepository<Room, Long>{
 

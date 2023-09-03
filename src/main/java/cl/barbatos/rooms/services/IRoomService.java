@@ -1,8 +1,8 @@
-package com.aleal.rooms.services;
+package cl.barbatos.rooms.services;
 
 import java.util.List;
 
-import com.aleal.rooms.model.Room;
+import cl.barbatos.rooms.model.Room;
 
 public interface IRoomService {
 	

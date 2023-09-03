@@ -1,9 +1,9 @@
-package com.aleal.rooms.controller;
+package cl.barbatos.rooms.controller;
 
 import java.util.List;
 
-import com.aleal.rooms.config.RoomsServiceConfig;
-import com.aleal.rooms.model.PropertiesRooms;
+import cl.barbatos.rooms.config.RoomsServiceConfig;
+import cl.barbatos.rooms.model.PropertiesRooms;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
@@ -11,8 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.aleal.rooms.model.Room;
-import com.aleal.rooms.services.IRoomService;
+import cl.barbatos.rooms.model.Room;
+import cl.barbatos.rooms.services.IRoomService;
 
 @RestController
 public class RoomController {

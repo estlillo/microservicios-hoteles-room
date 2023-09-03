@@ -1,4 +1,4 @@
-package com.aleal.rooms.config;
+package cl.barbatos.rooms.config;
 
 import lombok.Getter;
 import lombok.Setter;

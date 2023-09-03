@@ -1,12 +1,11 @@
-package com.aleal.rooms.services;
+package cl.barbatos.rooms.services;
 
 import java.util.List;
 
+import cl.barbatos.rooms.dao.IRoomDao;
+import cl.barbatos.rooms.model.Room;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.aleal.rooms.dao.IRoomDao;
-import com.aleal.rooms.model.Room;
 
 @Service
 public class RoomServiceImpl implements IRoomService {

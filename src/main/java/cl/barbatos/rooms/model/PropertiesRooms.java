@@ -1,4 +1,4 @@
-package com.aleal.rooms.model;
+package cl.barbatos.rooms.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
